@@ -19,6 +19,9 @@ class MainActivity : AppCompatActivity() {
             val result = add(number1.text.toString(), number2.text.toString())
             findViewById<TextView>(R.id.answer).text = result.toString()
         }
+
+
+
     }
 
     // adds two numbers together
